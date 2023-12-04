@@ -51,7 +51,7 @@ export const MainMenu = () => {
             key={route.href}
             href={route.href}
             className={cn(
-              "flex items-center py-5 px-10 gap-2 text-gray-400 border-b border-gray-500/30 transition-all duration-300 hover:bg-gray-500/5 hover:text-white"
+              "flex items-center py-5 px-10 gap-2 text-sm text-gray-400 border-b border-gray-500/30 transition-all duration-300 hover:bg-gray-500/5 hover:text-white"
             )}>
             <route.icon size={20} />
             {route.label}
