@@ -10,11 +10,11 @@ interface CardProjectsProps {
 
 const CardProjects = ({ href, image, category, title }: CardProjectsProps) => {
   return (
-    <Link href={href} className="p-5 group ">
-      <div className="relative w-full h-72 mb-5 overflow-hidden rounded-lg">
+    <Link href={href} className="group ">
+      <div className="relative w-full h-56 mb-5 overflow-hidden rounded-lg">
         <Image
           src={image}
-          alt=""
+          alt={title}
           fill
           className="object-cover rounded-lg group-hover:scale-105 transition-all duration-300"
         />
