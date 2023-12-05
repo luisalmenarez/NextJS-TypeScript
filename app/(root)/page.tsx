@@ -1,4 +1,5 @@
 import HeroSection from "./Sections/HeroSection";
+import LearningSection from "./Sections/LearningSection";
 import ProjectSection from "./Sections/ProjectSection";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <HeroSection />
       <ProjectSection />
+      <LearningSection />
     </>
   );
 }

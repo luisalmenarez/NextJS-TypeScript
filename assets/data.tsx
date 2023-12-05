@@ -37,4 +37,16 @@ export const information = {
       href: "https://www.instagram.com/_luisalmenarez/",
     },
   ],
+
+  Learning: [
+    {
+      message: ` "Luis tradujo sin esfuerzo nuestros conceptos en diseños visualmente
+      impresionantes que no sólo captaban la esencia de nuestra marca, sino
+      que también resonaban con nuestro público objetivo. Su atención al
+      detalle y su pensamiento innovador le hicieron destacar." `,
+      image: "/user.jpg",
+      name: "Luis Almenarez",
+      position: "Frontend Developer",
+    },
+  ],
 };

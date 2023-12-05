@@ -10,7 +10,7 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
   return (
     <section>
       <Sidebar showMenu={showMenu} onClose={() => setShowMenu(false)} />
-      <button type="button" className="lg:hidden">
+      <button type="button" className="mt-4 lg:hidden">
         <RiMenu2Fill onClick={() => setShowMenu(true)} size={22} />
       </button>
       {children}
