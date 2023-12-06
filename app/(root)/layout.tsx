@@ -3,6 +3,7 @@
 import { ReactNode, useState } from "react";
 import { RiMenu2Fill } from "react-icons/ri";
 import { Sidebar } from "@/Components/Shared/Sidebar";
+import ButtonIcon from "@/Components/Ui/ButtonIcon";
 
 const MainLayout = ({ children }: { children: ReactNode }) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -10,9 +11,11 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
   return (
     <section>
       <Sidebar showMenu={showMenu} onClose={() => setShowMenu(false)} />
-      <button type="button" className="mt-4 lg:hidden">
-        <RiMenu2Fill onClick={() => setShowMenu(true)} size={22} />
-      </button>
+      <ButtonIcon
+        icon={RiMenu2Fill}
+        onClick={() => setShowMenu(true)}
+        className="text-black text-xl mt-4 lg:hidden fixed right-3 z-30 bg-primary p-2 rounded-full"
+      />
       {children}
     </section>
   );
