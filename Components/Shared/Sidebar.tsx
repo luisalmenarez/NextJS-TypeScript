@@ -14,7 +14,7 @@ export const Sidebar = ({ showMenu, onClose }: SidebarProps) => {
     <>
       <aside
         className={cn(
-          "fixed top-0 lg:left-0 bg-dark w-[70vw] md:w-[30vw] lg:w-[15vw] h-full border-r border-gray-500/30 transition-all duration-500 ease-out z-50",
+          "fixed top-0 lg:left-0 bg-dark w-[70vw] md:w-[30vw] lg:w-[20vw] xl:w-[15vw] h-full border-r border-gray-500/30 transition-all duration-500 ease-out z-50",
           showMenu ? "left-0" : "-left-full"
         )}>
         <section className="group px-8 py-10 border-b border-gray-500/30">
@@ -34,7 +34,7 @@ export const Sidebar = ({ showMenu, onClose }: SidebarProps) => {
       <div
         onClick={onClose}
         className={cn(
-          "fixed bg-black/10 z-40 left-0 top-0 w-full h-full",
+          "fixed bg-black/50 z-40 left-0 top-0 w-full h-full",
           showMenu ? "block" : "hidden"
         )}
       />
