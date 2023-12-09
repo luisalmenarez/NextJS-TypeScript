@@ -1,5 +1,7 @@
-import { cn } from "@/libs/utils";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { cn } from "@/libs/utils";
+
 import {
   RiHome3Line,
   RiShapeLine,
@@ -12,36 +14,33 @@ import {
 export const MainMenu = () => {
   const routes = [
     {
-      label: "Home",
+      label: "Inicio",
       icon: RiHome3Line,
       href: "/",
     },
     {
-      label: "Work",
+      label: "Proyectos",
       icon: RiShapeLine,
       href: "/work",
     },
     {
-      label: "Ventures",
+      label: "Tecnologías",
       icon: RiBriefcase2Line,
       href: "/ventures",
     },
     {
-      label: "Blog",
-      icon: RiFileList2Line,
-      href: "/blog",
-    },
-    {
-      label: "About",
+      label: "Sobre mi",
       icon: RiUserAddLine,
       href: "/about",
     },
     {
-      label: "Contact",
+      label: "Contacto",
       icon: RiMailSendLine,
       href: "/contact",
     },
   ];
+
+  const pathname = usePathname();
 
   return (
     <ul>
@@ -51,7 +50,8 @@ export const MainMenu = () => {
             key={route.href}
             href={route.href}
             className={cn(
-              "flex items-center py-5 px-10 gap-2 text-sm text-gray-400 border-b border-gray-500/30 transition-all duration-300 hover:bg-gray-500/5 hover:text-primary"
+              "flex items-center py-5 px-10 gap-2 text-sm text-gray-400 border-b border-gray-500/30 transition-all duration-300 hover:bg-gray-500/5 hover:text-primary",
+              pathname === route.href && "text-primary"
             )}>
             <route.icon size={20} />
             {route.label}
