@@ -16,21 +16,21 @@ const OtherSection = () => {
         <div className="space-y-5">
           <CardOtherSection
             href="/other-1"
-            image="/other.jpg"
+            image="/Other/other.jpg"
             category="Design"
             title="What's the Difference Between UX and UI?"
             ago="4 Min"
           />
           <CardOtherSection
             href="/other-1"
-            image="/other2.jpg"
+            image="/Other/other2.jpg"
             category="Productivity"
             title="Take It one Step At a Time"
             ago="3 Min"
           />
           <CardOtherSection
             href="/other-1"
-            image="/other3.jpg"
+            image="/Other/other3.jpg"
             category="Design"
             title="How Do I Design a Website?"
             ago="4 Min"
