@@ -9,7 +9,7 @@ const LearningSection = () => {
   return (
     <section id="Learning" className="border border-gray-500/30 py-6">
       <Container>
-        <Title title="Aprendisajes" />
+        <Title title="Estudios" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <CardLearning
             message={firstLearning.message}

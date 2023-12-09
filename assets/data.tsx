@@ -6,7 +6,7 @@ import {
 } from "react-icons/ri";
 
 export const information = {
-  title: `Hola! soy Luis Almenarez — Un experto Desarrollador web Frontend`,
+  title: `Hola, soy Luis Almenarez — Un experto Desarrollador web Frontend`,
   about: `Soy un desarrollador Frontend con amplia experiencia en proyectos
     individuales y colaborativos. Mi especialización se centra en
     tecnologías de vanguardia, donde permanezco al tanto de las últimas

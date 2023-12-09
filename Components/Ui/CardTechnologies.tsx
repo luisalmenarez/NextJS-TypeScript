@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface CardTechnologiesProps {
   href: string;
@@ -14,8 +15,8 @@ const CardTechnologies = ({
   description,
 }: CardTechnologiesProps) => {
   return (
-    <a href={href} target="_blank" className="block group">
-      <div className="relative w-14 h-14 rounded-xl mb-5">
+    <Link href={href} className="block group mb-5">
+      <div className="relative w-16 h-16 rounded-xl mb-2">
         <Image
           src={image}
           alt={title}
@@ -26,8 +27,8 @@ const CardTechnologies = ({
       <h3 className="text-white text-xl mb-2 group-hover:text-primary transition-colors duration-300">
         {title}
       </h3>
-      <p className="text-gray-500 text-sm">{description}</p>
-    </a>
+      <p className="text-gray-500 text-sm w-4/5">{description}</p>
+    </Link>
   );
 };
 

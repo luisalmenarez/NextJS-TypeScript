@@ -26,7 +26,7 @@ export const MainMenu = () => {
     {
       label: "Tecnologías",
       icon: RiBriefcase2Line,
-      href: "/ventures",
+      href: "/technologies",
     },
     {
       label: "Sobre mi",
