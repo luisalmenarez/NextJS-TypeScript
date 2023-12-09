@@ -18,7 +18,7 @@ const Button = ({
       type={type}
       onClick={onClick}
       className={cn(
-        "py-2 px-4 border border-primary/20 w-full rounded-lg hover:bg-primary/5 hover:text-primary transition-all duration-500 font-light",
+        "py-2 px-4 border border-primary/20 w-full rounded-lg text-primary hover:bg-primary/10 transition-all duration-500 font-light",
         className
       )}>
       {label}

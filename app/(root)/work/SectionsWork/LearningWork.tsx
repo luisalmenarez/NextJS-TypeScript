@@ -9,7 +9,7 @@ const LearningWork = () => {
       className="space-y-6 border-b border-gray-500/30 py-10">
       <Container>
         <div className="flex flex-col lg:flex-row lg:items-start sm:justify-between mb-10">
-          <SubTitle subtitle="Retos" className="my-0" />
+          <SubTitle subtitle="Retos" className="my-0 mb-5" />
           <ul className="space-y-8">
             <li className="max-w-2xl">
               <h4 className="text-xl text-white font-medium">

@@ -1,11 +1,9 @@
-"use client";
-
-import Button from "@/Components/Ui/Button";
 import Container from "@/Components/Ui/Container";
 import Title from "@/Components/Ui/Title";
 import Image from "next/image";
+import ButtonAbout from "./utils/ButtonAbout";
 
-const page = () => {
+const AboutPage = () => {
   return (
     <main className="border-b border-gray-500/30 pb-10">
       <Container>
@@ -53,17 +51,10 @@ const page = () => {
             impactantes.
           </p>
         </div>
-        <div className="grid place-items-center">
-          <Button
-            type="button"
-            label="Hablemos!"
-            onClick={() => {}}
-            className="w-1/2"
-          />
-        </div>
+        <ButtonAbout />
       </Container>
     </main>
   );
 };
 
-export default page;
+export default AboutPage;
