@@ -1,8 +1,5 @@
-// tailwind.config.js
-import type { Config } from "tailwindcss";
-import { join } from "path";
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,10 +10,9 @@ const config: Config = {
       colors: {
         primary: "#fca311",
         dark: "#121212",
+        "dark-light": "#181818",
       },
     },
   },
   plugins: [],
 };
-
-module.exports = config;

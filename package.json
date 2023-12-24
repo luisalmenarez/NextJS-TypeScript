@@ -1,5 +1,5 @@
 {
-  "name": "portafolio-web",
+  "name": "portafolio-web-octubre-2023",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,25 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/node": "20.8.3",
+    "@types/react": "18.2.25",
+    "@types/react-dom": "18.2.11",
+    "autoprefixer": "10.4.16",
     "clsx": "^2.0.0",
-    "next": "14.0.3",
-    "postcss-import": "^15.1.0",
-    "postcss-preset-env": "^9.3.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.12.0",
-    "sharp": "^0.33.0",
-    "tailwind-merge": "^2.1.0",
-    "tailwindcss": "^3.3.6"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.4.16",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3",
-    "postcss": "^8.4.32",
-    "typescript": "^5"
+    "eslint": "8.51.0",
+    "eslint-config-next": "13.5.4",
+    "next": "13.5.4",
+    "postcss": "8.4.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
   }
 }
