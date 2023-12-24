@@ -1,12 +1,11 @@
-import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
-import "./globals.css";
 import { ReactNode } from "react";
+import "./globals.css";
+import { Outfit } from "next/font/google";
 import { cn } from "@/libs/utils";
 
 const font = Outfit({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Luis Almenarez | Frontend Dev",
   description: "Portfolio Web",
 };
