@@ -1,8 +1,8 @@
 "use client";
 
-import Button from "@/Components/Ui/Button";
-import Container from "@/Components/Ui/Container";
-import Title from "@/Components/Ui/Title";
+import Button from "@/components/ui/button";
+import Container from "@/components/ui/container";
+import Title from "@/components/ui/title";
 import Image from "next/image";
 
 const Header = () => {

@@ -1,5 +1,5 @@
-import ButtonSocial from "@/Components/Ui/ButtonSocial";
-import Container from "@/Components/Ui/Container";
+import ButtonSocial from "@/components/ui/button-social";
+import Container from "@/components/ui/container";
 import { information } from "@/assets/data";
 import Image from "next/image";
 

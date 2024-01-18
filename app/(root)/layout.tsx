@@ -2,9 +2,9 @@
 
 import { ReactNode, useState } from "react";
 import { RiMenu2Fill } from "react-icons/ri";
-import { Sidebar } from "@/Components/Shared/Sidebar";
-import ButtonIcon from "@/Components/Ui/ButtonIcon";
-import Footer from "@/Components/Shared/Footer";
+import { Sidebar } from "@/components/shared/sidebar";
+import ButtonIcon from "@/components/ui/button-icon";
+import Footer from "@/components/shared/footer";
 
 const MainLayout = ({ children }: { children: ReactNode }) => {
   const [showMenu, setShowMenu] = useState(false);

@@ -1,5 +1,5 @@
 import { cn } from "@/libs/utils";
-import CardTechnologies from "./Ui/CardTechnologies";
+import CardTechnologies from "./ui/card-technologies";
 
 interface ListTechnologiesProps {
   className?: string;

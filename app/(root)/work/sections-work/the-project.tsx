@@ -1,5 +1,5 @@
-import Container from "@/Components/Ui/Container";
-import SubTitle from "@/Components/Ui/Subtitle";
+import Container from "@/components/ui/container";
+import SubTitle from "@/components/ui/sub-title";
 import Image from "next/image";
 
 const TheProject = () => {

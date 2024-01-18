@@ -1,6 +1,6 @@
-import Container from "@/Components/Ui/Container";
-import Title from "@/Components/Ui/Title";
-import ListFeaturedWork from "@/Components/ListFeaturedWork";
+import Container from "@/components/ui/container";
+import Title from "@/components/ui/title";
+import ListFeaturedWork from "@/components/list-featured-works";
 
 const PageWork = () => {
   return (

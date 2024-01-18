@@ -1,10 +1,10 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import Button from "@/Components/Ui/Button";
-import Container from "@/Components/Ui/Container";
-import Title from "@/Components/Ui/Title";
-import ListFeaturedWork from "@/Components/ListFeaturedWork";
+import Button from "@/components/ui/button";
+import Container from "@/components/ui/container";
+import Title from "@/components/ui/title";
+import ListFeaturedWork from "@/components/list-featured-works";
 
 const ProjectSection = () => {
   const router = useRouter();

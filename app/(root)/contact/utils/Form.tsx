@@ -1,5 +1,5 @@
 "use client";
-import Button from "@/Components/Ui/Button";
+import Button from "@/components/ui/button";
 
 const Form = () => {
   return (

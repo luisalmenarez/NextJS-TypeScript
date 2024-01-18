@@ -1,10 +1,10 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import Button from "@/Components/Ui/Button";
-import CardOtherSection from "@/Components/Ui/CardOtherSection";
-import Container from "@/Components/Ui/Container";
-import Title from "@/Components/Ui/Title";
+import Button from "@/components/ui/Button";
+import CardOtherSection from "@/components/ui/card-other.section";
+import Container from "@/components/ui/container";
+import Title from "@/components/ui/title";
 
 const OtherSection = () => {
   const router = useRouter();

@@ -1,4 +1,4 @@
-import CardProjects from "@/Components/Ui/CardProjects";
+import CardProjects from "@/components/ui/card-project";
 
 const ListFeaturedWork = () => {
   return (

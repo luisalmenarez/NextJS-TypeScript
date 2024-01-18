@@ -1,6 +1,6 @@
-import CardLearning from "@/Components/Ui/CardLearning";
-import Container from "@/Components/Ui/Container";
-import Title from "@/Components/Ui/Title";
+import CardLearning from "@/components/ui/card-learning";
+import Container from "@/components/ui/container";
+import Title from "@/components/ui/title";
 import { information } from "@/assets/data";
 
 const LearningSection = () => {

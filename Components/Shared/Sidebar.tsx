@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { MainMenu } from "@/Components/Shared/Main-menu";
+import { MainMenu } from "@/components/shared/main-menu";
 import { cn } from "@/libs/utils";
 
 interface SidebarProps {

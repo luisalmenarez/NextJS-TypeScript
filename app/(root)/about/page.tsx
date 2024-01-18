@@ -1,5 +1,5 @@
-import Container from "@/Components/Ui/Container";
-import Title from "@/Components/Ui/Title";
+import Container from "@/components/ui/container";
+import Title from "@/components/ui/title";
 import Image from "next/image";
 import ButtonAbout from "./utils/button-about";
 

@@ -1,7 +1,7 @@
-import ListTechnologies from "@/Components/ListTechnologies";
-import CardTechnologies from "@/Components/Ui/CardTechnologies";
-import Container from "@/Components/Ui/Container";
-import Title from "@/Components/Ui/Title";
+import ListTechnologies from "@/components/list-technologies";
+import CardTechnologies from "@/components/ui/card-technologies";
+import Container from "@/components/ui/container";
+import Title from "@/components/ui/title";
 
 const SectionTechnologies = () => {
   return (
