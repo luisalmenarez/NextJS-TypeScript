@@ -1,6 +1,6 @@
 import Container from "@/components/ui/container";
 import Title from "@/components/ui/title";
-import Form from "./utils/Form";
+import Form from "./utils/form";
 
 const ContactPage = () => {
   return (
