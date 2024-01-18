@@ -1,7 +1,7 @@
-import Header from "../SectionsWork/header";
+import Header from "../sections-work/header";
 import { Metadata } from "next";
-import LearningWork from "../SectionsWork/LearningWork";
-import TheProject from "../SectionsWork/TheProject";
+import LearningWork from "../sections-work/learning-work";
+import TheProject from "../sections-work/the-project";
 
 export const metadata: Metadata = {
   title: "Luis Almenarez | Details",

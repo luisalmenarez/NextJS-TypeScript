@@ -1,7 +1,7 @@
 import Container from "@/Components/Ui/Container";
 import Title from "@/Components/Ui/Title";
 import Image from "next/image";
-import ButtonAbout from "./utils/ButtonAbout";
+import ButtonAbout from "./utils/button-about";
 
 const AboutPage = () => {
   return (

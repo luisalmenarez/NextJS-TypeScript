@@ -1,8 +1,8 @@
-import HeroSection from "./Sections/HeroSection";
-import LearningSection from "./Sections/LearningSection";
-import OtherSection from "./Sections/OtherSection";
-import ProjectSection from "./Sections/ProjectSection";
-import SectionTechnologies from "./Sections/SectionTechnologies";
+import HeroSection from "./sections/hero-section";
+import LearningSection from "./sections/learning-section";
+import OtherSection from "./sections/other-section";
+import ProjectSection from "./sections/project-section";
+import SectionTechnologies from "./sections/section-technologies";
 
 export default function Home() {
   return (
