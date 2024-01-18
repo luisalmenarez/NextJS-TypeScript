@@ -1,6 +1,6 @@
 "use client";
 
-import Button from "@/components/ui/button";
+import Button from "@/components/ui/button-primary";
 import Container from "@/components/ui/container";
 import Title from "@/components/ui/title";
 import Image from "next/image";

@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import Button from "@/components/ui/Button";
+import Button from "@/components/ui/button-primary";
 import CardOtherSection from "@/components/ui/card-other.section";
 import Container from "@/components/ui/container";
 import Title from "@/components/ui/title";
